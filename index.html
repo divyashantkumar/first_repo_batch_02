@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Practice Assignment</title>
+    <link rel="stylesheet" href="assignment.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <h1 class="main-title">Web Development Learning Hub</h1>
+      <p class="subtitle">Master HTML & CSS Fundamentals</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li><a href="#html-basics">HTML Basics</a></li>
+        <li><a href="#css-styling">CSS Styling</a></li>
+        <li><a href="#media-section">Media Elements</a></li>
+        <li><a href="#data-section">Data Display</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- HTML Basics Section -->
+      <section id="html-basics" class="section">
+        <h2 class="section-title">HTML Fundamentals</h2>
+
+        <div class="content-box">
+          <h3>Text Formatting Examples</h3>
+          <p>
+            This is a <strong>bold text</strong> and this is
+            <em>italic text</em>.
+          </p>
+          <p>
+            Here's some <mark>highlighted text</mark> and
+            <code>inline code</code>.
+          </p>
+          <blockquote class="quote">
+            "The best way to learn HTML and CSS is through hands-on practice and
+            building real projects."
+          </blockquote>
+        </div>
+      </section>
+
+      <!-- CSS Styling Section -->
+      <section id="css-styling" class="section">
+        <h2 class="section-title">CSS Styling Practice</h2>
+
+        <div class="styling-demo">
+          <div class="box-model-demo">
+            <h4>Box Model Demonstration</h4>
+            <p>
+              This element demonstrates margin, padding, border, and content
+              areas.
+            </p>
+          </div>
+
+          <div class="position-demo">
+            <div class="positioned-element">Positioned Element</div>
+            <div class="relative-container">
+              <div class="absolute-element">Absolute Element</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Media Section -->
+      <section id="media-section" class="section">
+        <h2 class="section-title">Media Elements</h2>
+
+        <div class="media-container">
+          <!-- Image Section -->
+          <div class="media-item">
+            <h3>Images</h3>
+            <div class="image-gallery">
+              <img
+                src="detective_1320570.png"
+                alt="Detective Character"
+                class="gallery-image"
+              />
+              <img
+                src="favicon.png"
+                alt="Website Favicon"
+                class="gallery-image"
+              />
+            </div>
+          </div>
+
+          <!-- Video Section -->
+          <div class="media-item">
+            <h3>Video Content</h3>
+            <video class="video-player" controls>
+              <source
+                src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+
+          <!-- Audio Section -->
+          <div class="media-item">
+            <h3>Audio Content</h3>
+            <audio class="audio-player" controls>
+              <source
+                src="https://www.soundjay.com/misc/sounds/bell-ringing-05.wav"
+                type="audio/wav"
+              />
+              Your browser does not support the audio tag.
+            </audio>
+          </div>
+        </div>
+      </section>
+
+      <!-- Data Display Section -->
+      <section id="data-section" class="section">
+        <h2 class="section-title">Data Display</h2>
+
+        <!-- Lists -->
+        <div class="lists-container">
+          <div class="list-item">
+            <h3>Unordered List</h3>
+            <ul class="custom-list">
+              <li>HTML Structure</li>
+              <li>CSS Styling</li>
+              <li>Responsive Design</li>
+              <li>Web Accessibility</li>
+            </ul>
+          </div>
+
+          <div class="list-item">
+            <h3>Ordered List</h3>
+            <ol class="custom-list">
+              <li>Learn HTML basics</li>
+              <li>Master CSS properties</li>
+              <li>Practice with projects</li>
+              <li>Build responsive layouts</li>
+            </ol>
+          </div>
+
+          <div class="list-item">
+            <h3>Definition List</h3>
+            <dl class="definition-list">
+              <dt>HTML</dt>
+              <dd>
+                HyperText Markup Language - the standard markup language for web
+                pages
+              </dd>
+              <dt>CSS</dt>
+              <dd>
+                Cascading Style Sheets - used for styling and layout of web
+                pages
+              </dd>
+              <dt>JavaScript</dt>
+              <dd>
+                A programming language that adds interactivity to web pages
+              </dd>
+            </dl>
+          </div>
+        </div>
+
+        <!-- Tables -->
+        <div class="table-container">
+          <h3>Student Progress Table</h3>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Student Name</th>
+                <th>HTML Score</th>
+                <th>CSS Score</th>
+                <th>Total Score</th>
+                <th>Grade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Alice Johnson</td>
+                <td>85</td>
+                <td>92</td>
+                <td>177</td>
+                <td>A</td>
+              </tr>
+              <tr>
+                <td>Bob Smith</td>
+                <td>78</td>
+                <td>88</td>
+                <td>166</td>
+                <td>B+</td>
+              </tr>
+              <tr>
+                <td>Carol Davis</td>
+                <td>95</td>
+                <td>89</td>
+                <td>184</td>
+                <td>A+</td>
+              </tr>
+              <tr>
+                <td>David Wilson</td>
+                <td>82</td>
+                <td>85</td>
+                <td>167</td>
+                <td>B+</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td><strong>Average</strong></td>
+                <td><strong>85</strong></td>
+                <td><strong>88.5</strong></td>
+                <td><strong>173.5</strong></td>
+                <td><strong>A-</strong></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </section>
+
+      <!-- Interactive Elements -->
+      <section class="section">
+        <h2 class="section-title">Interactive Elements</h2>
+
+        <div class="interactive-container">
+          <div class="hover-demo">
+            <h3>Hover Effects</h3>
+            <button class="hover-button">Hover Me!</button>
+            <div class="hover-card">
+              <h4>Hover Card</h4>
+              <p>This card changes on hover</p>
+            </div>
+          </div>
+
+          <div class="responsive-demo">
+            <h3>Responsive Design</h3>
+            <div class="responsive-grid">
+              <div class="grid-item">Item 1</div>
+              <div class="grid-item">Item 2</div>
+              <div class="grid-item">Item 3</div>
+              <div class="grid-item">Item 4</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2024 Web Development Learning Hub. All rights reserved.</p>
+      <p>Practice makes perfect! Keep coding and learning.</p>
+    </footer>
+  </body>
+</html>
